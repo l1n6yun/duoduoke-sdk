@@ -1,0 +1,29 @@
+{
+    "name": "l1n6yun/duoduoke-sdk",
+    "description": "多多客API SDK【拼多多开放平台】",
+    "type": "library",
+    "license": "MIT",
+    "keywords": [
+        "pinduoduo",
+        "duoduoke",
+        "拼多多",
+        "多多客",
+        "sdk"
+    ],
+    "authors": [
+        {
+            "name": "l1n6yun",
+            "email": "l1n6yun@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.2.9",
+        "ext-json": "*",
+        "hanson/foundation-sdk": "^3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "l1n6yun\\DuoDuoKe\\": "src/"
+        }
+    }
+}
